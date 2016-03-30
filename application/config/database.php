@@ -66,7 +66,7 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => '1Blueribbon',
+	'password' => '',
 	'database' => 'secrets',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -81,6 +81,5 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE,
-        'port' => 4712
+	'save_queries' => TRUE
 );
